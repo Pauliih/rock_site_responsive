@@ -1,0 +1,52 @@
+.menu{
+  background-color: #343A40FF;
+  padding: 0 8%;
+}
+
+.title{
+  color: white;
+}
+
+.txt-title{
+  text-align: left;
+}
+
+.list-menu{
+  text-align: right;
+}
+
+ul{
+  list-style: none; /*saca las viñetas de la lista */
+  padding: 2% 0; 
+}
+
+li{
+  text-align: center;
+  display: inline-block;
+  padding: 0 1%;
+}
+
+a{
+  text-decoration: none;/*sacar la linea del link*/
+  color: #95989BFF;
+}
+
+a:hover{
+  color: white;
+}
+
+/* _____________________________________________________________________ */
+
+.init{
+  background-image: url(../img/header.jpg);
+  color: white;
+  text-align: center;
+}
+
+.h2{
+  font-size: 4.5em;
+}
+
+.h3{
+  font-size: 3em;
+}
