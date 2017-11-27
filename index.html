@@ -12,24 +12,25 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
-    <nav class="menu">
-      <div class="row">
-        <div class="col-6 txt-title">
-          <h1 class="title">Start Bootstrap</h1>
-          <!-- hacer que aparezca el icono menú en verion movil -->
-            <!-- <a href="#"> <i class="fa fa-bars" aria-hidden="true"></i></a> -->
-        </div>
-        <div class="col-6 list-menu">
+  <header class="">   
+    <div class="row">
+      <div class="col-6">
+        <h1 class="txt-title">Start Bootstrap</h1>
+      </div>
+      <div class="col-6">
+        <input type="checkbox" id="menu-bar">
+        <label class="fa fa-bars" for="menu-bar"></label>
+        <nav class="menu">
           <ul class="list-header">
             <a href="#"><li>Home</li></a>
             <a href="#"><li>About</li></a>
             <a href="#"><li>Services</li></a>
             <a href="#"><li>Contact</li></a>
           </ul>
-        </div>
+        
+        </nav>
       </div>
-    </nav>
+    </div>
   </header>
 
   <!--<div class="container">-->
@@ -42,6 +43,55 @@
     </div>
   </section>
   <!--</div>-->
-
+  <section id="about">
+    <div class="row">
+      <div class="col-12">
+        <h2>For those about to rock...</h2>
+      </div>
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor mollitia eaque temporibus quidem optio quo neque, illo ab eos dolores! Animi suscipit veritatis aliquid consequuntur, voluptates inventore atque accusantium. Mollitia.</p>
+      </div>
+    </div>
+  </section>
+  <section id="images">
+    <div class="row">
+      <div class="col-12">
+        <img class="image" src="assets/img/rock1.jpg" alt="rock1">
+      </div>
+      <div class="col-12">
+        <img class="image" src="assets/img/rock2.jpg" alt="rock2">
+      </div>
+    </div>
+  </section>
+  <sector id="salute">
+    <div class="row">
+      <div class="col-12">
+        <h2>We salute you!</h2>
+      </div>
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro blanditiis, libero velit. Aspernatur molestiae voluptate, doloribus asperiores eos distinctio, officiis temporibus optio nihil repellendus alias delectus tenetur atque odit perferendis?</p>
+      </div>
+    </div>
+  </sector>
+  <section id="let-rock">
+    <div class="row">
+      <div class="col-12">
+        <h2>Let there be rock</h2>
+      </div>
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestiae veritatis deserunt fugit iste perferendis ullam minima odio! A, tempora eos cupiditate, quod provident odit at odio vel ea aliquam.</p>
+      </div>
+      <div class="col-12">
+        <img class="image" src="assets/img/rock3.jpg" alt="rock3">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row">
+      <div class="col-12">
+        <p>Copyright &#169; Your Website 2017</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
