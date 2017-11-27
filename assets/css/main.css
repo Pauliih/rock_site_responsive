@@ -29,10 +29,11 @@ header label{
 
 .menu{
   height: 100vh; /* para que ocupe el alto de toda la ventana */
+  width: 100%;
   background-color: rgba(51,51,51,0.9);
   top: 50px;
   transition: all 0.5s;
-  transform: translateX(-100%);
+  transform: translateX(500%); /* valor positivo para que el menú venga desde la derecha y 500% para que no se vea */
   display:table;
 
 }
@@ -49,11 +50,13 @@ ul{
 
 li{
   text-align: center;
+  border-bottom: 1px solid #95989BFF;
 }
 
 .menu a{
   text-decoration: none;/*sacar la linea del link*/
   color: #95989BFF;
+  padding: 2%;
 }
 
 .menu a:hover{
@@ -88,12 +91,18 @@ li{
 
 .image{
   width: 100%;
+  border-radius: 50%;
+}
+
+#images, #let-rock{
+  padding: 8%;
 }
 
 
-
+/* _____________________________________________________________________ */
 
 footer{
   background-color: #343A40FF;
   color: white;
+  height: 55px;
 }
